@@ -3,8 +3,15 @@
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+    /*pafrão 16px --> 62,5% == 10PX*/
+}
+
 body {
     background-color: white;
+    font-size: 1.6rem;
+    /*pafrão 16px --> 1.6rem == 16pX*/
 }
 
 .container {
@@ -22,21 +29,24 @@ body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 320px;
+    max-width: 22%;
     height: 590px;
-    margin: 25px 80px 20px 120px;
+    margin: 20px 80px 0px 120px;
     align-items: center;
     border-radius: 30px;
     box-shadow: 3px 3px 3px #e1e1e1, -3px 0 3px #e1e1e1;
     border-top: 10px solid #ff914d;
 }
 
+
 .texto_sobre_form {
-    margin: 20px 15px 0 15px;
+    margin-top: 20px;
+    padding: 0;
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 1.1rem;
     text-align: center;
+
 }
 
 .texto_otimize {
@@ -47,19 +57,18 @@ body {
 }
 
 .titulo_otimize {
-    margin: 60px 0 0 0;
+    margin-top: 60px;
 }
 
 .texto {
     margin: 20px 0 0 0px;
-    font-size: 14px;
+    font-size: 1.4rem;
     text-align: justify;
     text-indent: 13px
 }
 
 .preencher_cadastro {
     margin-top: 20px;
-    width: 85%;
 }
 
 .forms {
@@ -70,87 +79,76 @@ body {
 
 .input_forms {
     display: flex;
+    width: 100%;
     flex-direction: column;
 }
 
-.input_forms .input {
-    margin-top: 5px;
-}
-
 .input_forms input {
+    margin: 5px 0px 0 0px;
     padding: 5px 5px;
     border-radius: 4px;
     border: 1px solid #e1e1e1;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-family: 'Montserrat';
 }
 
+.input_forms .opcoes {
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    /* background-color: #ff914d;*/
+}
+
 .input_forms label {
-    padding: 5px 5px;
+    padding: 1px 2px 1px 2px;
     border-radius: 4px;
     border-top: 1px solid #e1e1e1;
-    font-size: 12px;
+    font-size: 1.1rem;
     font-family: 'Montserrat';
 }
+
 
 .cont_planos,
 .cont_medicos,
 .cont_esp {
     display: flex;
     flex-direction: column;
-    padding: 5px 5px;
+    padding: 5px 0 5px 0;
+    height: 30px;
     border-radius: 5px;
     border: 1px solid #e1e1e1;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-family: 'Montserrat';
-    margin-top: 5px;
+    margin: 5px 0px 0 0px;
+    /* background-color: #f0eded;*/
 }
 
-.cont_planos,
-.cont_medicos,
-.cont_esp {
-    background-color: #f0eded;
-}
-
-.cont_medicos .lista {
-    margin: 0;
-    border: none;
-}
-
-.cont_medicos .input {
-    border: 0px solid #e1e1e1;
-}
-
-.cont_planos .lista {
-    margin: 0;
-    border: none;
-}
-
-.cont_planos .input {
-    border: 0px solid #e1e1e1;
-}
-
+.cont_medicos .lista,
+.cont_planos .lista,
 .cont_esp .lista {
     margin: 0;
     border: none;
 }
 
+.cont_medicos .input,
+.cont_planos .input,
 .cont_esp .input {
     border: 0px solid #e1e1e1;
 }
 
 .input_forms select {
     padding: 1px 1px;
-    border: 0;
-    font-size: 11px;
+    border: none;
+    font-size: 1rem;
     font-family: 'Montserrat';
     width: 100%;
+    border-top: 0.5px solid#e1e1e1;
+    border-radius: 0 0 5px 5px;
 }
 
 .input_forms input:hover {
     /*focus usado ao clicar*/
     border-color: #ff914d;
-
 }
 
 .input_forms input:hover::placeholder {
@@ -163,16 +161,21 @@ option:hover {
 
 .check_box {
     display: flex;
-    gap: 15px;
+    padding: 5px 0 0 0px;
 }
 
 .check_box .input {
     width: 80%;
+    margin: 0;
 }
 
 .input_forms .check_box .texto_check {
-    font-size: 11px;
+    font-size: 1rem;
     border: none;
+}
+
+.botao {
+    margin-top: 50px;
 }
 
 .botao button {
@@ -181,7 +184,6 @@ option:hover {
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
-    margin-top: 40px;
     padding: 10px 10px 10px 10px;
     box-shadow: 0 -2px 1px#c0bfbf;
 }
@@ -195,7 +197,7 @@ option:hover {
     text-decoration: none;
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 /*-------------------Com interferencia do javascript------------------------------*/
@@ -224,14 +226,14 @@ option:hover {
     border-top: 7px solid #ff914d;
     gap: 15px;
     font-family: 'Montserrat';
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .informacoes-modal {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:20px 50px 40px 50px;
+    margin: 20px 50px 40px 50px;
     gap: 15px;
 }
 
@@ -239,7 +241,7 @@ option:hover {
     /* Incluir no javascript*/
     width: 100%;
     color: black;
-    font-size: 13px;
+    font-size: 1.3rem;
     font-weight: bold;
     text-align: right;
     float: right;
@@ -248,7 +250,8 @@ option:hover {
     border: 0;
 }
 
-.modal.aberto { /*Incluir no javascript*/
+.modal.aberto {
+    /*incluir no javascript*/
     opacity: 1;
     visibility: visible;
 }
