@@ -1,4 +1,0 @@
-# tela_cadastro_empresa
-Tela de cadastro para empresa. 
-O código é acompanhada de um recurso de página sobreposta para o envio de mensagem de confirmação de cadastro
-O código apresenta responsividade para tela full hd 1920.

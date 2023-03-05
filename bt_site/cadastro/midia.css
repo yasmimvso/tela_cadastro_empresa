@@ -1,91 +1,204 @@
-
-@media (max-width: 1920px) {
-
-    .cadastro {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        max-width: 15%;
-        max-height: 80%;
-        align-items: center;
-        margin: 10px 70px 10px 50px ;
-        border-radius: 30px;
-        box-shadow: 3px 3px 3px #e1e1e1, -3px 0 3px #e1e1e1;
-        border-top: 10px solid #ff914d;
-    }
-    
-}
-
-@media (max-width: 1400px) {
+@media (max-width: 1940px) {
 
     .cadastro {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
         max-width: 20%;
-        max-height: 80%;
-        align-items: center;
-        margin: 10px 70px 10px 50px ;
-        border-radius: 30px;
-        box-shadow: 3px 3px 3px #e1e1e1, -3px 0 3px #e1e1e1;
-        border-top: 10px solid #ff914d;
+        height: 600px;
     }
-    
+
+    .texto_sobre_form {
+        font-size: 1.4rem;
+    }
+
+    .input_forms {
+        display: flex;
+        width: 290px;
+        height: 300px;
+        flex-direction: column;
+    }
+
+    .texto_otimize {
+        margin-left: 90px;
+    }
+
+    .texto_otimize h4 {
+        font-size: 1.8rem;
+    }
+
+    .texto_otimize p {
+        font-size: 1.6rem;
+    }
+
+    .input_forms .opcoes {
+        border: none;
+        font-size: 1.2rem;
+        font-family: 'Montserrat';
+    }
+
+    .input_forms input {
+        font-size: 1.3rem;
+    }
+
+    .input_forms .check_box .texto_check {
+        font-size: 1.1rem;
+        border: none;
+    }
+}
+
+@media (max-width: 1840px) {
+
+    .cadastro {
+        max-width: 20%;
+        height: 600px;
+    }
+
+    .texto_sobre_form {
+        font-size: 1.3rem;
+    }
+
+    .input_forms {
+        display: flex;
+        width: 250px;
+        height: 300px;
+        flex-direction: column;
+    }
+
+    .texto_otimize {
+        margin-left: 80px;
+    }
+
+}
+
+@media (max-width: 1800px) {
+
+    .texto_sobre_form {
+        font-size: 1.3rem;
+    }
+
+    .input_forms {
+        display: flex;
+        width: 270px;
+        height: 300px;
+        flex-direction: column;
+    }
+
+    .cadastro {
+        max-width: 18%;
+        height: 600px;
+    }
+
+    .texto_otimize {
+        margin-left: 80px;
+    }
+
 }
 
 
+@media (max-width: 1675px) {
 
-
-@media (max-width: 1115px){
-    
-    .cadastro {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        max-width: 28%;
-        max-height: 100%;
-        align-items: center;
-        margin: 10px 70px 10px 50px ;
-        border-radius: 30px;
-        box-shadow: 3px 3px 3px #e1e1e1, -3px 0 3px #e1e1e1;
-        border-top: 10px solid #ff914d;
+    .texto_sobre_form {
+        font-size: 1.3rem;
     }
-    
+
+    .cadastro {
+        max-width: 20%;
+        height: 600px;
+    }
+
+    .input_forms {
+        display: flex;
+        width: 250px;
+        height: 300px;
+        flex-direction: column;
+    }
+
+    .texto_otimize {
+        margin-left: 80px;
+    }
+
+}
+
+@media (max-width: 1600px) {
+
+    .texto_sobre_form {
+        font-size: 1.3rem;
+    }
+
+    .input_forms {
+        display: flex;
+        width: 270px;
+        height: 300px;
+        flex-direction: column;
+    }
+
+    .cadastro {
+        max-width: 20%;
+        height: 590px;
+    }
+
+    .texto_otimize {
+        margin-left: 80px;
+    }
+
+
+}
+
+@media (max-width: 1546px) {
+
+    .texto_sobre_form {
+        font-size: 1.2rem;
+    }
+
+    .input_forms {
+
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .cadastro {
+        max-width: 22%;
+        height: 590px;
+    }
+}
+
+@media (max-width: 1240px) {
+
+    .cadastro {
+        max-width: 28%;
+        height: 600px;
+    }
+
+
     .texto_otimize {
         width: 50%;
         height: 30%;
-        margin-top: 40px;
+        margin: 40px 60px 0 40px;
         font-family: 'Montserrat';
     }
-  
+
     .texto_sobre_form {
         margin-top: 20px;
         padding: 0;
         font-family: Montserrat;
         font-weight: 500;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         text-align: center;
-    
+
     }
 
 }
+@media (max-width: 1090px) {
 
-
-@media (max-width: 1000px){
-    
     .cadastro {
         display: flex;
         flex-direction: column;
         background-color: white;
         max-width: 31%;
-        max-height: 100%;
+        height: 600px;
         align-items: center;
-        margin: 10px 70px 10px 50px ;
-        border-radius: 30px;
-        box-shadow: 3px 3px 3px #e1e1e1, -3px 0 3px #e1e1e1;
-        border-top: 10px solid #ff914d;
     }
-    
+
     .texto_otimize {
         width: 50%;
         height: 30%;
@@ -100,27 +213,21 @@
         font-weight: 500;
         font-size: 1.2rem;
         text-align: center;
-    
+
     }
 
 }
 
 
-@media (max-width: 950px){
-    
+@media (max-width: 950px) {
+
     .cadastro {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
         max-width: 35%;
-        max-height: 100%;
+        height: 600px;
         align-items: center;
-        margin: 10px 70px 10px 40px ;
-        border-radius: 30px;
-        box-shadow: 3px 3px 3px #e1e1e1, -3px 0 3px #e1e1e1;
-        border-top: 10px solid #ff914d;
+        margin: 10px 70px 10px 40px;
     }
-    
+
     .texto_otimize {
         width: 50%;
         height: 30%;
@@ -135,32 +242,23 @@
         font-weight: 500;
         font-size: 1.2rem;
         text-align: center;
-    
     }
-
 }
 
-@media (max-width: 850px){
-    
+@media (max-width: 870px) {
+
     .cadastro {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
         max-width: 35%;
         max-height: 100%;
-        align-items: center;
-        margin: 10px 60px 10px 20px ;
-        border-radius: 30px;
-        box-shadow: 3px 3px 3px #e1e1e1, -3px 0 3px #e1e1e1;
-        border-top: 10px solid #ff914d;
+        height: 580px;
     }
 
-    .texto_sobre_formes{
-       padding-left: 50px;
-       text-align: justify;
+    .texto_sobre_formes {
+        padding-left: 50px;
+        text-align: justify;
     }
 
-    
+
     .texto_otimize {
         width: 50%;
         height: 30%;
@@ -172,32 +270,25 @@
 
 @media (max-width: 780px) {
 
-
     .container {
         display: flex;
-       flex-direction: column;
+        flex-direction: column;
         background-color: white;
     }
 
     .cadastro {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
         max-width: 40%;
-        max-height: 100%;
+        height: 600px;
         align-items: center;
         margin: auto;
-        margin-top: 10px;
-        border-radius: 30px;
-        box-shadow: 3px 3px 3px #e1e1e1, -3px 0 3px #e1e1e1;
-        border-top: 10px solid #ff914d;
     }
-    .titulo_otimize{
+
+    .titulo_otimize {
         text-align: center;
     }
 
-    .texto_sobre_form{
-        font-size: 1.1rem;
+    .texto_sobre_form {
+        font-size: 1.2rem;
     }
 
     .texto_otimize {
@@ -226,44 +317,20 @@
         font-size: 1.2rem;
         font-family: 'Montserrat';
     }
-    
+
     .input_forms .opcoes {
         border: none;
         font-size: 1.2rem;
         font-family: 'Montserrat';
         /* background-color: #ff914d;*/
     }
-    
+
     .input_forms label {
         padding: 1px 2px 1px 2px;
         border-radius: 4px;
         border-top: 1px solid #e1e1e1;
         font-size: 1.1rem;
         font-family: 'Montserrat';
-    }
-    
-    
-    .cont_planos,
-    .cont_medicos,
-    .cont_esp {
-        display: flex;
-        flex-direction: column;
-        padding: 5px 0 5px 0;
-        height: 30px;
-        border-radius: 5px;
-        border: 1px solid #e1e1e1;
-        font-size: 1rem;
-        font-family: 'Montserrat';
-    }
-    
-    .input_forms select {
-        padding: 1px 1px;
-        border: none;
-        font-size: 1rem;
-        font-family: 'Montserrat';
-        width: 100%;
-        border-top: 0.5px solid#e1e1e1;
-        border-radius: 0 0 5px 5px;
     }
 
     .modal {
@@ -288,7 +355,7 @@
         font-family: 'Montserrat';
         font-size: 1.4rem;
     }
-    
+
     .informacoes-modal {
         display: flex;
         justify-content: center;
@@ -299,59 +366,14 @@
 
 }
 
-@media (max-width: 560px) {
-
-    .cadastro {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        max-width: 60%;
-        max-height: 100%;
-        align-items: center;
-        margin: auto;
-        margin-top: 10px;
-        border-radius: 30px;
-        box-shadow: 3px 3px 3px #e1e1e1, -3px 0 3px #e1e1e1;
-        border-top: 10px solid #ff914d;
-    }
-
-    .texto_sobre{
-        max-width: 60%;
-    }
-
-    .texto_sobre_form{
-        padding: 0 20px 0 20px;
-
-    }
-
-    .texto_otimize {
-        width: 516px;
-        height: 178px;
-        margin-top: 40px;
-        font-family: 'Montserrat';
-    }
-    
-    .titulo_otimize {
-        margin-top: 10px;
-    }
-    
-    .texto {
-        margin-top:10px;
-        padding: 0 20px 0 20px;
-        font-size: 1.3rem;
-        text-align: justify;
-        text-indent: 13px
-    }
-}
-
-@media (max-width: 660px) {
+@media (max-width: 700px) {
 
     .cadastro {
         display: flex;
         flex-direction: column;
         background-color: white;
         max-width: 50%;
-        max-height: 100%;
+        height: 600px;
         align-items: center;
         margin: auto;
         margin-top: 10px;
@@ -360,11 +382,11 @@
         border-top: 10px solid #ff914d;
     }
 
-    .texto_sobre{
+    .texto_sobre {
         max-width: 60%;
     }
 
-    .texto_sobre_form{
+    .texto_sobre_form {
         padding: 0 20px 0 20px;
 
     }
@@ -375,19 +397,20 @@
         margin-top: 40px;
         font-family: 'Montserrat';
     }
-    
+
     .titulo_otimize {
         margin-top: 10px;
     }
-    
+
     .texto {
-        margin-top:10px;
+        margin-top: 10px;
         padding: 0 20px 0 20px;
         font-size: 1.3rem;
         text-align: justify;
         text-indent: 13px
     }
 }
+
 
 @media (max-width: 560px) {
 
@@ -400,16 +423,13 @@
         align-items: center;
         margin: auto;
         margin-top: 10px;
-        border-radius: 30px;
-        box-shadow: 3px 3px 3px #e1e1e1, -3px 0 3px #e1e1e1;
-        border-top: 10px solid #ff914d;
     }
 
-    .texto_sobre{
+    .texto_sobre {
         max-width: 60%;
     }
 
-    .texto_sobre_form{
+    .texto_sobre_form {
         padding: 0 20px 0 20px;
 
     }
@@ -420,13 +440,13 @@
         margin-top: 40px;
         font-family: 'Montserrat';
     }
-    
+
     .titulo_otimize {
         margin-top: 10px;
     }
-    
+
     .texto {
-        margin-top:10px;
+        margin-top: 10px;
         padding: 0 20px 0 20px;
         font-size: 1.3rem;
         text-align: justify;
@@ -440,21 +460,18 @@
         display: flex;
         flex-direction: column;
         background-color: white;
-        max-width: 60%;
+        max-width: 70%;
         max-height: 100%;
         align-items: center;
         margin: auto;
         margin-top: 10px;
-        border-radius: 30px;
-        box-shadow: 3px 3px 3px #e1e1e1, -3px 0 3px #e1e1e1;
-        border-top: 10px solid #ff914d;
     }
 
-    .texto_sobre{
+    .texto_sobre {
         max-width: 60%;
     }
 
-    .texto_sobre_form{
+    .texto_sobre_form {
         padding: 0 20px 0 20px;
 
     }
@@ -478,16 +495,13 @@
         align-items: center;
         margin: auto;
         margin-top: 10px;
-        border-radius: 30px;
-        box-shadow: 3px 3px 3px #e1e1e1, -3px 0 3px #e1e1e1;
-        border-top: 10px solid #ff914d;
     }
 
-    .texto_sobre{
+    .texto_sobre {
         max-width: 70%;
     }
 
-    .texto_sobre_form{
+    .texto_sobre_form {
         padding: 0 20px 0 20px;
 
     }
@@ -499,8 +513,3 @@
         font-family: 'Montserrat';
     }
 }
-
-/*FAZER MEDIA DE VALOR DE >100 <1220*/
-/*FAZER PRA CELULAR*/
-/*1120*/
-/*510*/
